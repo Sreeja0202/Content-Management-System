@@ -8,6 +8,8 @@ const app = new express();
 app.use(express.json());
 app.use(cors());
 
+app.use("/users", urouter);
+
 app.listen(3000, function () {
   console.log("Server ready @ PORT 3000");
 });

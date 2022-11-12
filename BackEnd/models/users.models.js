@@ -15,9 +15,9 @@ const User = mongoose.model("user", {
   upassword: {
     type: String,
   },
-  ucpassword: {
-    type: String,
-  },
+  // ucpassword: {
+  //   type: String,
+  // },
 });
 
 module.exports = User;
