@@ -1,1 +1,45 @@
-<p>home works!</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <!-- 1st section starts here -->
+    <section class="sectionOne">
+      <header>
+        <div class="logo fw-bold">
+          <a routerLink="/landing">FREE BIRD</a>
+        </div>
+        <nav>
+          <ul>
+            <li class="links"><a routerLink="#about">About</a></li>
+            <li class="links"><a routerLink="#photos">Photos</a></li>
+            <li class="links"><a routerLink="#photos">Contact</a></li>
+            <li class="links"><a routerLink="/signup">Login</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="contentOne">
+        <p class="h2 text-light col-5 fw-bold">
+          “Leave nothing but footprints, take nothing but photos, kill nothing
+          but time.”
+        </p>
+        <div class="ms-5 scrollhome">
+          <a routerLink="#about" class="downarrow_button">
+            <i class="uil uil-mouse-alt downarrow_mouse"></i>
+            <span class="downarrow_name">Scroll Down</span>
+            <i class="uil uil-arrow-down downarrow"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- 1st section ends here -->
+
+    <!-- 2nd section starts here -->
+    <section class="sectionTwo about" id="about"></section>
+    <!-- second section ends here -->
+  </body>
+</html>
